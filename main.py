@@ -19,22 +19,22 @@ def validacion():
         dolares= int(input("Cuantos dolares tiene: "))
         pesos= dolares * ARS
         print(f"Tienes {pesos} pesos argentinos")
-        #menu()
+        
     elif opt==2:
         dolares= int(input("Cuantos dolares tiene: "))
         pesos= dolares * COL
         print(f"Tienes {pesos} pesos colombianos")
-        #menu()
+        
     elif opt==3:
         dolares= int(input("Cuantos dolares tiene: "))
         pesos= dolares * MEX
         print(f"Tienes {pesos} pesos colombianos")
-        #menu()
+        
     elif opt==4:
         print("¡Gracias por usar nuestro programa!")
     else:
         print("Opcion incorrecta")
-        #menu()
+        
 menu()
 validacion()
 
