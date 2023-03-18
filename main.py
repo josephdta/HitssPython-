@@ -12,7 +12,7 @@ def menu():
     print("2. Dolares estadounidenses a pesos colombianos")
     print("3. Dolares estadounidenses a pesos mexicanos")
     print("4. Salir del programa")
-    #return opcion
+    
 def validacion():
     opt=int(input("Seleccione la opción: "))
     if opt==1:
