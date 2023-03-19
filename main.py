@@ -2,7 +2,7 @@
 ARS=202.91
 COL=4849.99
 MEX= 18.74
-
+PREGUNTA="Cuantos dolares tiene: "
 nombre= input("Ingrese su nombre: ")
 
 def menu():
@@ -16,17 +16,20 @@ def menu():
 def validacion():
     opt=int(input("Seleccione la opción: "))
     if opt==1:
-        dolares= int(input("Cuantos dolares tiene: "))
+        print(f"{PREGUNTA}")
+        dolares= int(input(" "))
         pesos= dolares * ARS
         print(f"Tienes {pesos} pesos argentinos")
         
     elif opt==2:
-        dolares= int(input("Cuantos dolares tiene: "))
+        print(f"{PREGUNTA}")
+        dolares= int(input(" "))
         pesos= dolares * COL
         print(f"Tienes {pesos} pesos colombianos")
         
     elif opt==3:
-        dolares= int(input("Cuantos dolares tiene: "))
+        print(f"{PREGUNTA}")
+        dolares= int(input(" "))
         pesos= dolares * MEX
         print(f"Tienes {pesos} pesos colombianos")
         
