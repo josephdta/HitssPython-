@@ -15,6 +15,8 @@ def menu():
     
 def validacion():
     opt=int(input("Seleccione la opción: "))
+    if opt!=1 or opt !=2 or opt!= 3 or opt!=4:
+        print("Opcion incorrecta")
     if opt==1:
         print(f"{PREGUNTA}")
         dolares= int(input(" "))
@@ -35,9 +37,8 @@ def validacion():
         
     elif opt==4:
         print("¡Gracias por usar nuestro programa!")
-    else:
-        print("Opcion incorrecta")
-        
+    
+     
 menu()
 validacion()
 
