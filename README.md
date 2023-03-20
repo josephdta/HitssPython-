@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋,soy Joseph</h1>
 <h3 align="center">Apasionado por la cloud, y en capacitación constante.</h3>
 
-- 🌱 Actualmente aprendiendo **Python, y en busca de las certificaciones AWS. Cuento con certificación DevOps de Azure.**
+- 🌱 Actualmente aprendiendo **Python, gracias a la gestión de Global Hitss Ecuador.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
